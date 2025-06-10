@@ -39,7 +39,7 @@ export default function AlumniPage() {
           </div>
           <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
             <Image 
-              src="/assets/images/alumni-meet.jpg" 
+              src="/alumni-meet.jpg" 
               alt="Alumni Meet"
               fill
               className="object-cover"
@@ -55,19 +55,19 @@ export default function AlumniPage() {
                 name: "Dr. Anil Kapoor",
                 batch: "1995",
                 achievement: "Renowned Cardiologist at AIIMS Delhi",
-                image: "/assets/images/alumni1.jpg"
+                image: "/alumni1.jpg"
               },
               {
                 name: "Neha Sharma",
                 batch: "2005",
                 achievement: "Software Engineer at Google",
-                image: "/assets/images/alumni2.jpg"
+                image: "/alumni2.jpg"
               },
               {
                 name: "Rajat Verma",
                 batch: "2010",
                 achievement: "IAS Officer, UP Cadre",
-                image: "/assets/images/alumni3.jpg"
+                image: "/alumni3.jpg"
               }
             ].map((alumni, index) => (
               <div key={index} className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition duration-300">

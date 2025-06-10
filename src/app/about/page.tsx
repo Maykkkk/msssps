@@ -30,7 +30,7 @@ export default function AboutPage() {
           </div>
           <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
             <Image 
-              src="/assets/images/school-building.jpg" 
+              src="/school-building.jpg" 
               alt="School Building"
               fill
               className="object-cover"
@@ -42,7 +42,7 @@ export default function AboutPage() {
           <div className="order-last lg:order-first">
             <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
               <Image 
-                src="/assets/images/classroom.jpg" 
+                src="/classroom.jpg" 
                 alt="Classroom"
                 fill
                 className="object-cover"
@@ -70,19 +70,19 @@ export default function AboutPage() {
                 name: "Dr. Sunita Sharma",
                 role: "Principal",
                 bio: "With over 25 years of experience in education, Dr. Sharma leads our school with vision and dedication.",
-                image: "/assets/images/principal.jpg"
+                image: "/principal.jpg"
               },
               {
                 name: "Ramesh Patel",
                 role: "Vice Principal",
                 bio: "Mr. Patel oversees academic excellence and student development programs.",
-                image: "/assets/images/vice-principal.jpg"
+                image: "/vice-principal.jpg"
               },
               {
                 name: "Anita Gupta",
                 role: "Head of Academics",
                 bio: "Ms. Gupta ensures our curriculum remains innovative and effective.",
-                image: "/assets/images/academic-head.jpg"
+                image: "/academic-head.jpg"
               }
             ].map((leader, index) => (
               <div key={index} className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">

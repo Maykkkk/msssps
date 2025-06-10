@@ -25,7 +25,7 @@ export default function StudentLifePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
           <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
             <Image 
-              src="/assets/images/student-life1.jpg" 
+              src="/student-life1.jpg" 
               alt="Student Activities"
               fill
               className="object-cover"
@@ -67,7 +67,7 @@ export default function StudentLifePage() {
           </div>
           <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
             <Image 
-              src="/assets/images/sports.jpg" 
+              src="/sports.jpg" 
               alt="Sports Activities"
               fill
               className="object-cover"
@@ -82,17 +82,17 @@ export default function StudentLifePage() {
               {
                 event: "Annual Day",
                 description: "Cultural extravaganza showcasing student talents",
-                image: "/assets/images/annual-day.jpg"
+                image: "/annual-day.jpg"
               },
               {
                 event: "Science Exhibition",
                 description: "Innovative projects by young scientists",
-                image: "/assets/images/science-expo.jpg"
+                image: "/science-expo.jpg"
               },
               {
                 event: "Literary Fest",
                 description: "Debates, quizzes, and creative writing competitions",
-                image: "/assets/images/literary-fest.jpg"
+                image: "/literary-fest.jpg"
               }
             ].map((event, index) => (
               <div key={index} className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition duration-300">
@@ -133,7 +133,7 @@ export default function StudentLifePage() {
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden shadow-md">
               <Image 
-                src="/assets/images/student-council.jpg" 
+                src="/student-council.jpg" 
                 alt="Student Council"
                 fill
                 className="object-cover"

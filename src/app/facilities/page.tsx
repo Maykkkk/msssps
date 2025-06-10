@@ -27,12 +27,12 @@ export default function FacilitiesPage() {
             {
               title: "Modern Classrooms",
               description: "Spacious, well-ventilated classrooms equipped with smart boards and digital learning tools to enhance the teaching-learning experience.",
-              image: "/assets/images/classroom.jpg"
+              image: "/classroom.jpg"
             },
             {
               title: "Science Laboratories",
               description: "Fully-equipped physics, chemistry, and biology labs that allow students to learn through hands-on experimentation and discovery.",
-              image: "/assets/images/science-lab.jpg"
+              image: "/science-lab.jpg"
             }
           ].map((facility, index) => (
             <div key={index} className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300">

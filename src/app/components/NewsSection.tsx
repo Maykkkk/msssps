@@ -7,21 +7,21 @@ const NewsSection = () => {
       title: "Annual Sports Day 2023",
       date: "November 15, 2023",
       excerpt: "Our school celebrated its annual sports day with great enthusiasm and participation from all students.",
-      image: "/assets/images/sports-day.jpg"
+      image: "/sports-day.jpg"
     },
     {
       id: 2,
       title: "Science Fair Winners",
       date: "October 28, 2023",
       excerpt: "Our students won 3 awards at the regional science fair competition.",
-      image: "/assets/images/science-fair.jpg"
+      image: "/science-fair.jpg"
     },
     {
       id: 3,
       title: "New Computer Lab Inaugurated",
       date: "September 10, 2023",
       excerpt: "The school has added a new computer lab with the latest technology.",
-      image: "/assets/images/computer-lab.jpg"
+      image: "/computer-lab.jpg"
     }
   ]
 
