@@ -19,7 +19,7 @@ const Md = () => {
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Message from the Managing Director</h2>
             <div className="mb-6">
-              <h3 className="text-xl font-semibold text-blue-600 mb-2">Dr. Rajesh Sharma</h3>
+              <h3 className="text-xl font-semibold text-blue-600 mb-2">Shravan Gupta</h3>
               <p className="text-gray-500">Managing Director, Maa Sharda School</p>
             </div>
             <div className="space-y-4 text-gray-700">

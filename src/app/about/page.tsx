@@ -28,12 +28,12 @@ export default function AboutPage() {
               core values of integrity, excellence, and compassion.
             </p>
           </div>
-          <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
             <Image 
               src="/school-building.jpg" 
               alt="School Building"
               fill
-              className="object-cover"
+              className="object-cover opacity-40"
             />
           </div>
         </div>
