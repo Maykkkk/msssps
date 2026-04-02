@@ -4,24 +4,24 @@ const NewsSection = () => {
   const newsItems = [
     {
       id: 1,
-      title: "Annual Sports Day 2023",
-      date: "November 15, 2023",
-      excerpt: "Our school celebrated its annual sports day with great enthusiasm and participation from all students.",
-      image: "/sports-day.jpg"
+      title: "Udaan Prize Distribution",
+      date: "March 18, 2026",
+      excerpt: "Students were honored with medals, certificates, and special prizes for outstanding achievements in academics, sports, and co-curricular activities.",
+      image: "/annual-day.jpg"
     },
     {
       id: 2,
-      title: "Science Fair Winners",
-      date: "October 28, 2023",
-      excerpt: "Our students won 3 awards at the regional science fair competition.",
-      image: "/science-fair.jpg"
+      title: "Entrance Admission Exam",
+      date: "January 25, 2026",
+      excerpt: "The admission entrance exam was conducted successfully, with merit-based scholarships and prize recognition announced for top-performing students.",
+      image: "/school-building.jpg"
     },
     {
       id: 3,
-      title: "New Computer Lab Inaugurated",
-      date: "September 10, 2023",
-      excerpt: "The school has added a new computer lab with the latest technology.",
-      image: "/computer-lab.jpg"
+      title: "Udaan Scholarship Exam",
+      date: "December 28, 2025",
+      excerpt: "The Udaan Scholarship Exam gave students the opportunity to earn scholarships, along with prizes and certificates for exceptional scores.",
+      image: "/science-expo.jpg"
     }
   ]
 
@@ -48,7 +48,7 @@ const NewsSection = () => {
               </div>
               <div className="p-6">
                 <div className="text-sm text-blue-600 mb-2">{item.date}</div>
-                <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
+                <h3 className="text-xl font-semibold mb-3 text-gray-900">{item.title}</h3>
                 <p className="text-gray-600 mb-4">{item.excerpt}</p>
                 <button className="text-blue-600 font-medium hover:text-blue-800 transition duration-300">
                   Read More →

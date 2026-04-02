@@ -40,7 +40,7 @@ const FeaturesSection = () => {
               <div className="flex justify-center mb-4">
                 {feature.icon}
               </div>
-              <h3 className="text-xl font-semibold text-center mb-3">{feature.title}</h3>
+              <h3 className="text-xl font-semibold text-center mb-3 text-gray-900">{feature.title}</h3>
               <p className="text-gray-600 text-center">{feature.description}</p>
             </div>
           ))}

@@ -6,12 +6,12 @@ const Md = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="lg:order-last">
-            <div className="relative h-96 rounded-xl overflow-hidden shadow-xl">
+            <div className="relative mx-auto aspect-square w-full max-w-sm overflow-hidden rounded-xl shadow-xl lg:ml-auto">
               <Image 
-                src="/classroom.jpg"
+                src="/Md.png"
                 alt="Managing Director"
                 fill
-                className="object-cover"
+                className="object-cover object-top"
                 priority
               />
             </div>

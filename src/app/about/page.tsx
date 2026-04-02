@@ -67,16 +67,16 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                name: "Dr. Sunita Sharma",
+                name: "Mona Gupta",
                 role: "Principal",
-                bio: "With over 25 years of experience in education, Dr. Sharma leads our school with vision and dedication.",
-                image: "/principal.jpg"
+                bio: "With over 25 years of experience in education, Mona Gupta leads our school with vision and dedication.",
+                image: "/principal.png"
               },
               {
-                name: "Ramesh Patel",
+                name: "Alok Dubey",
                 role: "Vice Principal",
-                bio: "Mr. Patel oversees academic excellence and student development programs.",
-                image: "/vice-principal.jpg"
+                bio: "Alok Dubey oversees academic excellence and student development programs.",
+                image: "/vice_principal.png"
               },
               {
                 name: "Anita Gupta",
